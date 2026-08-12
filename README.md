@@ -75,8 +75,6 @@ Solo dev • Founder • 31+ years in IT • Privacy advocate • Homelab & Clou
 
 * **[GSA Manager](https://github.com/MichalAFerber/gsamanager.org)** — club/association management app with membership tracking, inventory, and payment processing. Active since 2007.
 
-* **[ReadThrough Advisor](https://github.com/MichalAFerber/ReadThrough-Advisor)** — KDP page-reads analytics for authors, live at [kdp.thompsonblack.us](https://kdp.thompsonblack.us).
-
 * **[IMDb Movie File Fixer](https://github.com/MichalAFerber/IMDbMovieFileFixer)** — auto-rename movies, fix grammar, check IMDb, handle duplicates.
 
 > See more at **Pinned Repositories** below.
