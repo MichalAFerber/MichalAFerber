@@ -27,7 +27,7 @@ Solo dev • Founder • 31+ years in IT • Privacy advocate • Homelab & Clou
 
 * **[IP Cow](https://ipcow.com)** — privacy-first IP, DNS & email diagnostics, running since 2005. Rebuilt in 2026 as an Astro site + API on dedicated Hetzner hosts, with separate IPv4-only and IPv6-only probe endpoints. The reusable core is MIT: [ipcow.com-tools](https://github.com/MichalAFerber/ipcow.com-tools) (`@ipcow/tools-core` + `ipcow-probe`).
 
-* **[MyKK](https://mykk.us)** — a single-file browser start page with 10+ widgets (weather, stocks, RSS, calendar, bookmarks, ambient sounds, more). Vanilla JS, zero deps, Pro tier via Chrome extension + Stripe. Joined by [favorites.mykk.us](https://favorites.mykk.us), a KV-backed speed-dial on Cloudflare Workers.
+* **[MyKK](https://mykk.us)** — a single-file browser start page with 10+ widgets (weather, stocks, RSS, calendar, bookmarks, ambient sounds, more). Vanilla JS, zero deps, Pro tier via Chrome extension + Stripe. Joined by [favorites.mykk.us](https://favorites.mykk.us), a KV-backed speed-dial on Cloudflare Workers, with its marketing site + self-service sync tokens at [favoritespage.us](https://favoritespage.us).
   Repos: [mykk.us-dashboard](https://github.com/MichalAFerber/mykk.us-dashboard) · [mykk.us](https://github.com/MichalAFerber/mykk.us) · [favorites.mykk.us](https://github.com/MichalAFerber/favorites.mykk.us)
 
 * **[tgwab-web](https://github.com/MichalAFerber/tgwab-web)** — pnpm + Astro 5 monorepo powering the identity fleet (hub, blog, dev portfolio, family, ham radio) from one shared design system (`@tgwab/design-tokens` + `@tgwab/ui`). Cloudflare Pages, no Google Fonts.
@@ -91,6 +91,7 @@ Solo dev • Founder • 31+ years in IT • Privacy advocate • Homelab & Clou
 | [michalferber.dev](https://michalferber.dev) | Developer portfolio — extensions, products, certs |
 | [start.mykk.us](https://start.mykk.us) | MyKK Dashboard — live demo |
 | [favorites.mykk.us](https://favorites.mykk.us) | MyKK Favorites — speed-dial on Cloudflare Workers |
+| [favoritespage.us](https://favoritespage.us) | MyKK Favorites marketing site — self-service sync tokens |
 | [file-viewer.us](https://file-viewer.us) | File Viewer family hub — 13 offline, single-file viewers |
 | [textwizard.us](https://textwizard.us) | Browser-local text & code tools |
 | [resizewizard.app](https://resizewizard.app) | ResizeWizard — Chrome extension |
