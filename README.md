@@ -116,11 +116,11 @@ Solo dev • Founder • 31+ years in IT • Privacy advocate • Homelab & Clou
 
 ## 📊 GitHub stats
 
-<a href="https://github.com/anuraghazra/github-readme-stats"><img src="https://github-readme-stats.vercel.app/api?username=MichalAFerber&show_icons=true&theme=dark&hide_border=true" height="160" /></a> <a href="https://github.com/anuraghazra/github-readme-stats"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MichalAFerber&layout=compact&theme=dark&hide_border=true" height="160" /></a>
+<a href="https://github.com/stats-organization/github-stats-extended"><img src="https://github-stats-extended.vercel.app/api?username=MichalAFerber&show_icons=true&theme=dark&hide_border=true" height="160" /></a> <a href="https://github.com/stats-organization/github-stats-extended"><img src="https://github-stats-extended.vercel.app/api/top-langs/?username=MichalAFerber&layout=compact&theme=dark&hide_border=true" height="160" /></a>
 
 [![GitHub Streak](https://streak-stats.demolab.com/?user=MichalAFerber&theme=dark&hide_border=true)](https://git.io/streak-stats)
 
-![Trophies](https://github-profile-trophy.vercel.app/?username=MichalAFerber&theme=onedark&no-frame=true&no-bg=true&row=1&column=6)
+![Trophies](https://github-trophies.vercel.app/?username=MichalAFerber&theme=onedark&no-frame=true&no-bg=true&row=1&column=6)
 
 
 ## 🤝 Connect
