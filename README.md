@@ -17,20 +17,21 @@ Solo dev • Founder • 31+ years in IT • Privacy advocate • Homelab & Clou
 
 ## 🚀 What I'm building
 
-* **[File Viewer family](https://file-viewer.us)** — 13 fast, single-file, offline viewers: PDF, Word, Excel/ODS, PowerPoint, Publisher, EPUB, Markdown, HTML, data (JSON/YAML/CSV/XML/TOML), logs, `.eml` email, X.509 certificates, and images (down to TIFF, QOI & farbfeld). No build step, nothing uploaded — ever.
+* **[File Viewer family](https://file-viewer.us)** — 15 fast, single-file, offline viewers: PDF, Word, Excel/ODS, PowerPoint, Publisher, EPUB, Markdown, HTML, data (JSON/YAML/CSV/XML/TOML), logs, `.eml` email, X.509 certificates, images (down to TIFF, QOI & farbfeld), audio, and video. No build step, nothing uploaded — ever.
   Repos: [file-viewer.us](https://github.com/MichalAFerber/file-viewer.us) is the hub; each viewer lives in its own repo ([pdf](https://github.com/MichalAFerber/pdf-viewer.us) · [docx](https://github.com/MichalAFerber/docx-viewer.us) · [sheets](https://github.com/MichalAFerber/sheets-viewer.us) · [image](https://github.com/MichalAFerber/image-viewer.us) · [cert](https://github.com/MichalAFerber/cert-viewer.us) · …)
 
 * **[TextWizard](https://textwizard.us)** — browser-local text & code tools: case converters, diff, analyzers, and more. MIT, zero dependencies, nothing leaves the tab.
   Repo: [textwizard-tools](https://github.com/MichalAFerber/textwizard-tools)
 
-* **Wizard apps & extensions** — [ResizeWizard](https://resizewizard.app) (anchored browser-window resizing, live on the Chrome Web Store), [CopyWizard](https://copywizard.us) (smart form mapper — copy form fields across sites with reusable profiles), and [UploadWizard](https://uploadwizard.app) (white-label client file-upload SaaS: multi-tenant Astro SSR, custom domains, passwordless auth). Free + Pro tiers via Stripe.
+* **Wizard apps & extensions** — [ResizeWizard](https://resizewizard.app) (anchored browser-window resizing, live on the Chrome Web Store), [CopyWizard](https://copywizard.us) (smart form mapper — copy form fields across sites with reusable profiles), [UploadWizard](https://uploadwizard.app) (white-label client file-upload SaaS: multi-tenant Astro SSR, custom domains, passwordless auth), and [BookmarkWizard](https://bookmarkwizard.app) (free-forever bookmark manager; Pro adds editing at $3/yr). In development: [CaptureWizard](https://capturewizard.app) (screenshot capture), [MarkdownWizard](https://markdownwizard.app) (Markdown editor/exporter), and [PunctuationWizard](https://punctuationwizard.app) (browser-local punctuation & typography tools). Free + Pro tiers via Stripe.
+  Repos: MarkdownWizard's OSS tools live in [markdownwizard-tools](https://github.com/TGWAB/markdownwizard-tools); PunctuationWizard's in [punctuationwizard-tools](https://github.com/MichalAFerber/punctuationwizard-tools)
 
 * **[IP Cow](https://ipcow.com)** — privacy-first IP, DNS & email diagnostics, running since 2005. Rebuilt in 2026 as an Astro site + API on dedicated Hetzner hosts, with separate IPv4-only and IPv6-only probe endpoints. The reusable core is MIT: [ipcow.com-tools](https://github.com/MichalAFerber/ipcow.com-tools) (`@ipcow/tools-core` + `ipcow-probe`).
 
-* **[MyKK](https://mykk.us)** — a single-file browser start page with 10+ widgets (weather, stocks, RSS, calendar, bookmarks, ambient sounds, more). Vanilla JS, zero deps, Pro tier via Chrome extension + Stripe. Joined by [favorites.mykk.us](https://favorites.mykk.us), a KV-backed speed-dial on Cloudflare Workers — free forever, with cross-device sync as **Favorites Pro** ($3/yr, 30-day trial) sold at [favoritespage.us](https://favoritespage.us) via Stripe + a better-auth license portal.
-  Repos: [mykk.us-dashboard](https://github.com/MichalAFerber/mykk.us-dashboard) · [mykk.us](https://github.com/MichalAFerber/mykk.us) · [favorites.mykk.us](https://github.com/MichalAFerber/favorites.mykk.us)
+* **[MyKK](https://mykk.us)** — a single-file browser start page with 10+ widgets (weather, stocks, RSS, calendar, bookmarks, ambient sounds, more). Vanilla JS, zero deps, Pro tier via Chrome extension + Stripe. Joined by [app.favoritespage.us](https://app.favoritespage.us), a KV-backed speed-dial on Cloudflare Workers — free forever, with cross-device sync as **Favorites Pro** ($3/yr, 30-day trial) sold at [favoritespage.us](https://favoritespage.us) via Stripe + a better-auth license portal.
+  Repos: [mykk.us-dashboard](https://github.com/MichalAFerber/mykk.us-dashboard) · [mykk.us](https://github.com/MichalAFerber/mykk.us) · [favoritespage-app](https://github.com/MichalAFerber/favoritespage-app)
 
-* **[tgwab-web](https://github.com/MichalAFerber/tgwab-web)** — pnpm + Astro 5 monorepo powering the identity fleet (hub, blog, dev portfolio, family, ham radio) from one shared design system (`@tgwab/design-tokens` + `@tgwab/ui`). Cloudflare Pages, no Google Fonts.
+* **[tgwab-web](https://github.com/MichalAFerber/tgwab-web)** — pnpm + Astro 7 monorepo powering the identity fleet (hub, blog, dev portfolio, family, ham radio) from one shared design system (`@tgwab/design-tokens` + `@tgwab/ui`). Cloudflare Pages, no Google Fonts.
 
 * **The estate** — the ops layer behind all of the above: Cloudflare Workers and scheduled jobs for job-liveness alerting, uptime probes, notification relay (Discord + email, DMARC/TLS-RPT ingestion), and transactional mail, governed by a shared standards repo. Mostly private by design; the mail Worker is public: [mailer](https://github.com/MichalAFerber/mailer).
 
@@ -55,9 +56,9 @@ Solo dev • Founder • 31+ years in IT • Privacy advocate • Homelab & Clou
 
 ## 🧩 More projects
 
-* **[de-google.us](https://github.com/MichalAFerber/de-google.us)** — a plain-English guide to limiting Big Tech without blowing up your life. Astro 5 + Tailwind 4 + Pagefind.
+* **[de-google.us](https://github.com/MichalAFerber/de-google.us)** — a plain-English guide to limiting Big Tech without blowing up your life. Astro 7 + Tailwind 4 + Pagefind.
 
-* **[tomatick](https://github.com/MichalAFerber/tomatick)** — 🍅 macOS menu-bar timer, stopwatch, alarm & pomodoro with timestamped history (rumps + PyObjC).
+* **[tomatick2](https://github.com/MichalAFerber/tomatick2)** — 🍅 menu-bar / system-tray timer, stopwatch, alarm & pomodoro with timestamped history. Go rewrite of the original macOS-only Tomatick; runs on macOS, Windows & Linux.
 
 * **[cheatsheets](https://github.com/MichalAFerber/cheatsheets)** — clean, privacy-first developer cheatsheets as web, PDF & Markdown.
 
@@ -66,16 +67,6 @@ Solo dev • Founder • 31+ years in IT • Privacy advocate • Homelab & Clou
 * **[default-web-pages](https://github.com/MichalAFerber/default-web-pages)** — a recreation archive of web-server default pages: Microsoft IIS (1995–2022) plus nginx, Apache, Caddy & friends.
 
 * **[Welcome Message](https://github.com/MichalAFerber/welcome-message)** — beautiful Linux MOTD with fastfetch, weather, and system metrics. Multi-distro, multi-shell, idempotent installer.
-
-* **[Scripts](https://github.com/MichalAFerber/scripts)** — practical Bash scripts and helpers across Linux systems, Raspberry Pi devices, and self-hosted environments.
-
-* **[Unbound Homelab](https://github.com/MichalAFerber/unbound-homelab)** — production-ready redundant DNS infrastructure for home labs. DNSSEC, health monitoring, automated config management on Raspberry Pi.
-
-* **[Email-to-Discord Worker](https://github.com/MichalAFerber/email-to-discord_cf-worker)** — Cloudflare Worker that routes inbound emails to Discord channels with HTML→Markdown conversion.
-
-* **[GSA Manager](https://github.com/MichalAFerber/gsamanager.org)** — club/association management app with membership tracking, inventory, and payment processing. Active since 2007.
-
-* **[IMDb Movie File Fixer](https://github.com/MichalAFerber/IMDbMovieFileFixer)** — auto-rename movies, fix grammar, check IMDb, handle duplicates.
 
 > See more at **Pinned Repositories** below.
 
@@ -90,16 +81,16 @@ Solo dev • Founder • 31+ years in IT • Privacy advocate • Homelab & Clou
 | [michalferber.me](https://michalferber.me) | Personal blog — building, operating, shipping projects |
 | [michalferber.dev](https://michalferber.dev) | Developer portfolio — extensions, products, certs |
 | [start.mykk.us](https://start.mykk.us) | MyKK Dashboard — live demo |
-| [favorites.mykk.us](https://favorites.mykk.us) | MyKK Favorites — speed-dial on Cloudflare Workers |
+| [app.favoritespage.us](https://app.favoritespage.us) | MyKK Favorites — speed-dial on Cloudflare Workers |
 | [favoritespage.us](https://favoritespage.us) | Favorites Pro — pricing, checkout & license portal ($3/yr) |
-| [file-viewer.us](https://file-viewer.us) | File Viewer family hub — 13 offline, single-file viewers |
+| [file-viewer.us](https://file-viewer.us) | File Viewer family hub — 15 offline, single-file viewers |
 | [textwizard.us](https://textwizard.us) | Browser-local text & code tools |
 | [resizewizard.app](https://resizewizard.app) | ResizeWizard — Chrome extension |
 | [copywizard.us](https://copywizard.us) | CopyWizard — smart form mapper extension |
 | [uploadwizard.app](https://uploadwizard.app) | UploadWizard — white-label client file uploads |
 | [ipcow.com](https://ipcow.com) | Free IP, DNS & email diagnostics — since 2005 |
 | [de-google.us](https://de-google.us) | Plain-English guide to limiting Big Tech |
-| [tomatick.us](https://tomatick.us) | Tomatick — macOS menu-bar pomodoro |
+| [tomatick.us](https://tomatick.us) | Tomatick — menu-bar/system-tray pomodoro (macOS, Windows, Linux) |
 | [fixdns.net](https://fixdns.net) / [brokedns.com](https://brokedns.com) | DNS repair / migration consulting |
 
 **Family, hobby & client sites**
