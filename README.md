@@ -23,7 +23,7 @@ Solo dev • Founder • 31+ years in IT • Privacy advocate • Homelab & Clou
 * **[TextWizard](https://textwizard.us)** — browser-local text & code tools: case converters, diff, analyzers, and more. MIT, zero dependencies, nothing leaves the tab.
   Repo: [textwizard-tools](https://github.com/MichalAFerber/textwizard-tools)
 
-* **Wizard apps & extensions** — [ResizeWizard](https://resizewizard.app) (anchored browser-window resizing, live on the Chrome Web Store), [CopyWizard](https://copywizard.us) (smart form mapper — copy form fields across sites with reusable profiles), [UploadWizard](https://uploadwizard.app) (white-label client file-upload SaaS: multi-tenant Astro SSR, custom domains, passwordless auth), and [BookmarkWizard](https://bookmarkwizard.app) (free-forever bookmark manager; Pro adds editing at $3/yr). In development: [CaptureWizard](https://capturewizard.app) (screenshot capture), [MarkdownWizard](https://markdownwizard.app) (Markdown editor/exporter), and [PunctuationWizard](https://punctuationwizard.app) (browser-local punctuation & typography tools). Free + Pro tiers via Stripe.
+* **Wizard apps & extensions** — [ResizeWizard](https://resizewizard.app) (anchored browser-window resizing, live on the Chrome Web Store), [CaptureWizard](https://capturewizard.app) (full-page screen capture; everything stays on your device), [CopyWizard](https://copywizard.us) (smart form mapper — copy form fields across sites with reusable profiles), [UploadWizard](https://uploadwizard.app) (white-label client file-upload SaaS: multi-tenant Astro SSR, custom domains, passwordless auth), and [BookmarkWizard](https://bookmarkwizard.app) (free-forever bookmark manager; Pro adds editing at $3/yr). In development: [MarkdownWizard](https://markdownwizard.app) (Markdown editor/exporter) and [PunctuationWizard](https://punctuationwizard.app) (browser-local punctuation & typography tools). Free + Pro tiers via Stripe.
   Repos: MarkdownWizard's OSS tools live in [markdownwizard-tools](https://github.com/TGWAB/markdownwizard-tools); PunctuationWizard's in [punctuationwizard-tools](https://github.com/MichalAFerber/punctuationwizard-tools)
 
 * **[IP Cow](https://ipcow.com)** — privacy-first IP, DNS & email diagnostics, running since 2005. Rebuilt in 2026 as an Astro site + API on dedicated Hetzner hosts, with separate IPv4-only and IPv6-only probe endpoints. The reusable core is MIT: [ipcow.com-tools](https://github.com/MichalAFerber/ipcow.com-tools) (`@ipcow/tools-core` + `ipcow-probe`).
@@ -45,13 +45,13 @@ Solo dev • Founder • 31+ years in IT • Privacy advocate • Homelab & Clou
 ![Astro](https://img.shields.io/badge/Astro-121212?logo=astro) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-121212?logo=tailwindcss) ![Material for MkDocs](https://img.shields.io/badge/Material%20for%20MkDocs-121212?logo=materialformkdocs)
 
 **Platforms & Infrastructure**
-![Cloudflare](https://img.shields.io/badge/Cloudflare-121212?logo=cloudflare) ![Hetzner](https://img.shields.io/badge/Hetzner-121212?logo=hetzner) ![Docker](https://img.shields.io/badge/Docker-121212?logo=docker) ![Proxmox](https://img.shields.io/badge/Proxmox-121212?logo=proxmox) ![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-121212?logo=raspberry-pi) ![TrueNAS](https://img.shields.io/badge/TrueNAS-121212?logo=truenas) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-121212?logo=githubactions)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-121212?logo=cloudflare) ![Hetzner](https://img.shields.io/badge/Hetzner-121212?logo=hetzner) ![Docker](https://img.shields.io/badge/Docker-121212?logo=docker) ![Proxmox](https://img.shields.io/badge/Proxmox-121212?logo=proxmox) ![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-121212?logo=raspberry-pi) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-121212?logo=githubactions)
 
 **Services & APIs**
 ![Stripe](https://img.shields.io/badge/Stripe-121212?logo=stripe) ![Proton](https://img.shields.io/badge/Proton-121212?logo=proton) ![Discord](https://img.shields.io/badge/Discord-121212?logo=discord) ![Wasabi](https://img.shields.io/badge/Wasabi-121212?logo=amazons3) ![Chrome Web Store](https://img.shields.io/badge/Chrome%20Web%20Store-121212?logo=googlechrome)
 
 **Tools**
-![Obsidian](https://img.shields.io/badge/Obsidian-121212?logo=obsidian) ![Claude Code](https://img.shields.io/badge/Claude%20Code-121212?logo=anthropic) ![Termius](https://img.shields.io/badge/Termius-121212?logo=termius) ![Nginx Proxy Manager](https://img.shields.io/badge/NPM-121212?logo=nginx)
+![Obsidian](https://img.shields.io/badge/Obsidian-121212?logo=obsidian) ![Claude Code](https://img.shields.io/badge/Claude%20Code-121212?logo=anthropic) ![Termius](https://img.shields.io/badge/Termius-121212?logo=termius) ![Caddy](https://img.shields.io/badge/Caddy-121212?logo=caddy)
 
 
 ## 🧩 More projects
@@ -86,6 +86,8 @@ Solo dev • Founder • 31+ years in IT • Privacy advocate • Homelab & Clou
 | [file-viewer.us](https://file-viewer.us) | File Viewer family hub — 15 offline, single-file viewers |
 | [textwizard.us](https://textwizard.us) | Browser-local text & code tools |
 | [resizewizard.app](https://resizewizard.app) | ResizeWizard — Chrome extension |
+| [capturewizard.app](https://capturewizard.app) | CaptureWizard — full-page screen capture extension |
+| [bookmarkwizard.app](https://bookmarkwizard.app) | BookmarkWizard — popup bookmark manager extension |
 | [copywizard.us](https://copywizard.us) | CopyWizard — smart form mapper extension |
 | [uploadwizard.app](https://uploadwizard.app) | UploadWizard — white-label client file uploads |
 | [ipcow.com](https://ipcow.com) | Free IP, DNS & email diagnostics — since 2005 |
